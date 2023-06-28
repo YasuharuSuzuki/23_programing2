@@ -7,14 +7,12 @@ channels:
 
 dependencies:
   - python=3.10 # Python3.10
-  - streamlit>=1.16 # 可視化用WEBアプリ簡易作成ライブラリ
   - pandas # データ分析用ライブラリ
   - matplotlib # データ分析用可視化ライブラリ
+  - scikit-learn # 機械学習ライブラリ
+  - seaborn # データ可視化ライブラリ。matplotlibと比較して、特定用途に特化してデザイン性を向上した関数、クラスがいくつか存在する
   - pillow # 画像ライブラリ
   - jupyter # jupyter-notebook (割とまだ良くつこてる)
-  - jupyterlab # jupyterlab (Notebook開発環境)
-  - jupyter-book # jupyterベースのドキュメント作成ツール
   - pip
   - pip:
     - japanize-matplotlib # データ分析用可視化ライブラリの日本語化ツール
-    - neologdn # 自然言語処理正規化ライブラリ
